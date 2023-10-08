@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  #body{
+    background-image: url(https://live.staticflickr.com/3919/14619474991_486e0954ae_b.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+  }
+
+  #body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Black color with 50% opacity */
+}
