@@ -49,3 +49,16 @@ input[type="text"]{
 .input-body>div{
     width: 33%;
 }
+
+input[type="date"]{
+    height: 4vh;
+    width: 20vw;
+}
+
+#page1sub{
+    background-color: white;
+    display: inline-block;
+    z-index: 99;
+    height: 4vh;
+    width: 4vw;
+}

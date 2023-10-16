@@ -10,6 +10,7 @@
     <nav>
         <h3>The only impossible journey is the one you never began</h3>
     </nav>
+  
     <div id="container">
         <h2>Part One</h2>
         <div id="name-card" class="conta">
@@ -17,15 +18,15 @@
             <div class="input-body">
                 <div>
                     <div>Last Name</div>
-                    <input type="text">
+                    <input type="text" id="last_name">
                 </div>
                 <div>
                     <div>First Name</div>
-                    <input type="text">
+                    <input type="text" id="first_name">
                 </div>
                 <div>
                     <div>Middle Name</div>
-                    <input type="text">
+                    <input type="text" id="middle_name">
                 </div>
             </div>
         </div>
@@ -33,11 +34,11 @@
             <div class="cardheader">2.Gender</div>
             <div class="input-body">
                 <div>
-                    <input type="radio" name="gender" id="male">
+                    <input type="radio" name="gender" value="male" id="male">
                     <label for="male">Male <img src="https://dvprogram.state.gov/img/40pxAiga_men.png" alt="Male"></label>
                 </div>
                 <div>
-                    <input type="radio" name="gender" id="female">
+                    <input type="radio" name="gender" value="female" id="female">
                     <label for="female">Female <img src="https://dvprogram.state.gov/img/40pxAiga_women.png" alt="Female"></label>
                 </div>
             </div>
@@ -47,16 +48,16 @@
             <div class="input-body">
                 <div>
                     <div>Month</div>
-                    <input type="text" placeholder="mm">
+                    <input type="date" id="date">
                 </div>
-                <div>
+                <!-- <div>
                     <div>Day</div>
                     <input type="text" placeholder="dd">
                 </div>
                 <div>
                     <div>Year</div>
                     <input type="text" placeholder="yyyy">
-                </div>
+                </div> -->
             </div>
         </div>
         <div id="Birthplace" class="conta">
@@ -64,16 +65,18 @@
             <div class="input-body">
                 <div>
                     <div>Enter Birth City Only. Do not enter District/County/Province/State. <br> Birth City</div>
-                    <input type="text" >
+                    <input type="text" id="birthplace">
                 </div>
             </div>
         </div>
         <div id="submit">
             <div class="cardheader">
-                <a href="../page2/page2.html">NEXT</a>
-            </div>
+                <!-- <a href="../page2/page2.html">NEXT</a> -->
+                <input type="submit"  id="page1sub" value="NEXT">
             </div>
         </div>
     </div>
+
+    <script src="./script1.js"></script>
 </body>
 </html>
