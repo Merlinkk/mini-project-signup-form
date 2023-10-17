@@ -5,6 +5,10 @@ window.addEventListener('load', function() {
 })
 
 
+var emailMessage = `"Thankyou for signing up for GC ${document.getElementById('first_name')} ${document.getElementById('email')}. This is just a confirmation email regarding your application for GC signup. Stay posted for further instructions and news."`
+
+
+
 
 var userData={}
 
@@ -87,6 +91,7 @@ pagesub.onclick = () => {
         part3.style.display = ""
         b2.style.backgroundColor = "#02BE8B"
         
+        
     }
     else if(mode==4){
         storeInputData3()
@@ -99,6 +104,7 @@ pagesub.onclick = () => {
         cover.style.display = ""
         b3.style.backgroundColor = "#02BE8B"
         btn.style.justifyContent = 'center'
+        localStorage.setItem('email',userData['email'])
     }
 
 }
@@ -163,3 +169,36 @@ back.onclick = () => {
     }
 }
 
+// EMAIL JS CODE
+function sendMail() {
+    var params = {
+      name: localStorage.getItem('name'),
+      email: localStorage.getItem('email'),
+      message: emailMessage,
+    };
+
+    console.log(params)
+  
+    const serviceID = "service_c4aakpv";
+    const templateID = "template_76gz826";
+  
+      emailjs.send(serviceID, templateID, params)
+      .then(res=>{
+        localStorage.getItem('name');
+        localStorage.getItem('email');
+        emailMessage;
+        console.log(res);
+  
+      })
+      .catch(err=>console.log(err));
+  
+  }
+
+
+// EMAIL JS CODE
+
+
+lastsub.onclick = () =>{
+    sendMail()
+    console.log("done")
+} 

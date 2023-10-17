@@ -1,3 +1,5 @@
+localStorage.clear()
+
 var na = document.getElementById('name')
 const btn = document.getElementById('btnnn')
 
