@@ -56,6 +56,14 @@ input{
     padding: 10px;
     margin-bottom: 10px;
 }
-h1{
+
+strong{
     color: #BDE87C;
+}
+h1{
+    color: #7CBA87;
+    font-size: 50px;
+}
+span{
+    font-size: 25px;
 }

@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/2017/February/new-flags.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+nav h3{
+    color: white;
+    z-index: 1;
+}
+
+#container{
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 20vh;
+    margin-right: 15vw;
+}
+#container h2{
+    text-align: center;
+}
+
+.input-body{
+    display: flex;
+    margin-bottom: 1.25rem;
+    /* border radius */
+    border-radius: 1rem;
+    
+}
+input[type="submit"]{
+
+    height: 40px;
+    width: 60px;
+    border: 0;
+    border-radius: 1rem;
+}
+input[type="text"]{
+    width: 97%;
+    height: 4vh;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.cardheader{
+    background-color: rgb(2,190,139);
+    padding: 1rem;
+    border: 1px solid black;
+    /* border radius */
+    border-radius: 1rem;
+}
+.input-body{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.input-body>div{
+    width: 33%;
+}
+
+input[type="date"]{
+    height: 4vh;
+    width: 20vw;
+}
+
+#page1sub{
+    background-color: white;
+    display: inline-block;
+    z-index: 99;
+    height: 4vh;
+    width: 4vw;
+}
+
+/* part 2 */
+
+
+
+#container{
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 20vh;
+    margin-right: 15vw;
+}
+#container h2{
+    text-align: center;
+}
+
+.input-body{
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+/* input[type="submit"]{
+    position: relative;
+    left: 450px;
+} */
+
+
+
+
+.input-body>div{
+    width: 33%;
+}
+.input-body-mail{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    /* border radius */
+    border-radius: 1rem;
+}
+.input-body-mail div{
+    width: 70%;
+    padding: 10px;
+}
+select{
+    height: 4vh;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 2rem;
+}
+.input-body-radio{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    /* border radius */
+    border-radius: 1rem;
+}
+
+.input-body-radio div{
+    padding: 5px;
+}
+#disnone{
+    display: none;
+}
+
+/* part 3 */
+
+
+
+#container{
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 20vh;
+    margin-right: 15vw;
+}
+#container h2{
+    text-align: center;
+}
+
+.input-body{
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+input[type="text"]{
+    width: 97%;
+    height: 4vh;
+}
+
+
+
+
+.input-body>div{
+    width: 33%;
+}
+.input-body-email{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    /* border radius */
+    border-radius: 1rem;
+}
+.input-body-email div{
+    padding: 10px;
+}
+input[type="email"]{
+    width: 50%;
+    height: 4vh;
+    border-radius: 1rem;
+    text-align: center;
+}
+.input-body-password{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    /* border radius */
+    border-radius: 1rem;
+}
+.input-body-password div{
+    margin-bottom: 5px;
+}
+input[type="password"]{
+    padding: 10px;
+    width: 30%;
+    height: 4vh;
+    margin-top: 5px;
+    border-radius: 1rem;
+    text-align: center;
+}
+#cover{
+    height: 90vh;
+    width: 100vw;
+    top: 0;
+    z-index: 99;
+    position: fixed;
+}
+
+#shadow{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    background-size: cover;
+}
+
+.ball {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+  }
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+}
+/* input[type="submit"]{
+    position: relative;
+    left: 450px;
+    
+} */
