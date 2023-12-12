@@ -1,5 +1,5 @@
 
-# Project Title: GC Sign-Up 
+ Project Title: GC Sign-Up 
 
  Project Logo:  ![logo](https://github.com/Merlinkk/mini-project-signup-form/assets/80953200/75b881c9-6924-4099-86ac-2f2e665c4479)
 
